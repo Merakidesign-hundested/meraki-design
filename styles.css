@@ -82,10 +82,13 @@
   }
 }
 
-
-/* v13 – mobil: lavere hero-billede på forsiden */
+/* v14 – mobil: centrér lyskuglerne bedre i det lavere hero-felt */
 @media (max-width:800px){
-  .hero-visual{height:355px;}
+  .hero-visual{
+    height:355px;
+    background-position:center 58%;
+  }
   .hero-top{height:175px;}
   .hero-photo{height:180px;}
 }
+
