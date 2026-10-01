@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Siden blev ikke fundet | Meraki Design</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="assets/monogram.png">
+  <link rel="apple-touch-icon" href="assets/monogram.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .error-page{
+      min-height:calc(100vh - 58px);
+      background:var(--taupe);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:70px 24px 90px;
+      text-align:center;
+      color:#fff;
+    }
+    .error-inner{
+      width:min(760px,100%);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+    }
+    .error-logo{
+      width:min(330px,68vw);
+      margin:0 auto 44px;
+    }
+    .error-code{
+      margin:0 0 8px;
+      font-size:15px;
+      font-weight:600;
+      letter-spacing:.18em;
+    }
+    .error-title{
+      margin:0 0 22px;
+      font-size:clamp(30px,4.2vw,48px);
+      line-height:1.18;
+      font-weight:500;
+    }
+    .error-copy{
+      margin:0 auto 34px;
+      max-width:610px;
+      font-size:20px;
+      line-height:1.6;
+    }
+    .error-heart{
+      width:44px;
+      margin:0 auto 32px;
+    }
+    .error-link{
+      display:inline-block;
+      padding:12px 25px 10px;
+      border:1.5px solid #fff;
+      text-decoration:none;
+      font-size:17px;
+      font-weight:600;
+      transition:.2s;
+    }
+    .error-link:hover{
+      background:#fff;
+      color:var(--taupe);
+    }
+    @media(max-width:800px){
+      .error-page{
+        min-height:calc(100vh - 58px);
+        padding:55px 28px 80px;
+      }
+      .error-logo{
+        width:min(250px,72vw);
+        margin-bottom:36px;
+      }
+      .error-title{
+        font-size:31px;
+      }
+      .error-copy{
+        max-width:360px;
+        font-size:17px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="home-mark" href="index.html">
+      <img src="assets/monogram.png" alt="Meraki Design">
+    </a>
+    <button class="menu-btn" aria-label="Åbn menu">☰</button>
+    <nav class="nav">
+      <a href="index.html">Skabt med hænderne og hjertet</a>
+      <a href="kreative-univers.html">Mit kreative univers</a>
+      <a href="om.html">Om Meraki Design</a>
+    </nav>
+  </header>
+
+  <main class="error-page">
+    <div class="error-inner">
+      <img class="error-logo" src="assets/logo-white.png" alt="Meraki Design">
+
+      <p class="error-code">404 · SIDEN BLEV IKKE FUNDET</p>
+      <h1 class="error-title">Ups... den her blev vist lidt for skæv ♡</h1>
+
+      <p class="error-copy">
+        Siden, du leder efter, findes ikke.<br>
+        Måske har den aldrig været her – eller måske har den bare fundet sin egen vej.
+      </p>
+
+      <img class="error-heart" src="assets/heart-white.png" alt="">
+
+      <a class="error-link" href="index.html">Tilbage til forsiden</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">© Meraki Design · Hundested · hej@merakidesign.dk</footer>
+  <button class="to-top" aria-label="Til toppen">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
