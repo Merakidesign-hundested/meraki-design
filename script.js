@@ -1,0 +1,2 @@
+const btn=document.querySelector('.menu-btn'),nav=document.querySelector('.nav');if(btn&&nav){btn.addEventListener('click',()=>nav.classList.toggle('open'));nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')))}
+const topBtn=document.querySelector('.to-top');if(topBtn){addEventListener('scroll',()=>topBtn.classList.toggle('show',scrollY>500));topBtn.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}))}
