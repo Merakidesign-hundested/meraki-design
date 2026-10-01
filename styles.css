@@ -260,3 +260,24 @@
     transform:translateX(-10%);
   }
 }
+
+/* v22 – mobil: kontaktikoner skaleres korrekt fra sprite */
+@media (max-width:800px){
+  .contact-icon{
+    width:40px;
+    height:40px;
+    background-size:40px auto;
+  }
+
+  .contact-mail{
+    background-position:center top;
+  }
+
+  .contact-instagram{
+    background-position:center -45px;
+  }
+
+  .contact-location{
+    background-position:center bottom;
+  }
+}
