@@ -119,3 +119,33 @@
   }
 }
 
+/* v18 – mobil: swipe-gallerier og større runde Meraki-labels */
+@media (max-width:800px){
+  .gallery-strip,
+  .design-section .gallery-strip{
+    display:flex;
+    grid-template-columns:none;
+    gap:12px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding:0 25px 20px;
+    scroll-snap-type:x mandatory;
+    scroll-padding-left:25px;
+    -webkit-overflow-scrolling:touch;
+  }
+
+  .gallery-strip img{
+    flex:0 0 84vw;
+    width:84vw;
+    height:300px;
+    object-fit:cover;
+    scroll-snap-align:start;
+  }
+
+  .round-logo{
+    width:185px;
+    max-width:185px;
+    justify-self:center;
+  }
+}
+
