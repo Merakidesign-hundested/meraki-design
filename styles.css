@@ -149,3 +149,89 @@
   }
 }
 
+/* v19 – mobil: Om Meraki Design */
+@media (max-width:800px){
+
+  /* Sørg for at siden aldrig bliver bredere end mobilen */
+  html, body{
+    max-width:100%;
+    overflow-x:hidden;
+  }
+
+  /* Citatgrafikken skal kunne ses i sin helhed */
+  .quote{
+    padding:30px 24px 24px;
+    overflow:hidden;
+  }
+  .quote img{
+    width:100%;
+    max-width:520px;
+    height:auto;
+    margin:0 auto;
+  }
+
+  /* Det mørke tekstfelt får reel mobilbredde */
+  .bio{
+    width:100%;
+    padding:32px 28px 30px;
+    font-size:17px;
+    overflow:hidden;
+  }
+  .bio p{
+    max-width:100%;
+  }
+  .bio .last{
+    display:flex;
+    align-items:flex-end;
+    gap:18px;
+  }
+  .bio .last img{
+    flex:0 0 auto;
+    width:52px;
+  }
+
+  /* Portræt og tekst stables på mobil */
+  .portrait-row{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:22px;
+    width:100%;
+    padding:32px 28px 34px;
+    text-align:center;
+  }
+  .portrait-row .portrait{
+    width:155px;
+    height:155px;
+    flex:0 0 auto;
+  }
+  .portrait-row > div{
+    width:100%;
+    max-width:430px;
+  }
+  .portrait-text{
+    width:100%;
+    font-size:17px;
+  }
+  .signature{
+    width:175px;
+    max-width:55vw;
+    margin:18px 0 0 auto;
+  }
+
+  /* Kontaktsektionen: behold udtrykket, men fjern unødigt meget luft */
+  .about-right{
+    width:100%;
+    padding:42px 30px 48px;
+  }
+  .about-logo{
+    width:min(500px,92%);
+    margin:0 auto 38px;
+  }
+  .contact-list{
+    width:100%;
+    max-width:520px;
+    margin:0 auto;
+  }
+}
+
