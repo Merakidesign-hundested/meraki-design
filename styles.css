@@ -249,3 +249,14 @@
     margin:0 auto 38px;
   }
 }
+
+/* v21 – mobil: kontaktlogo markant større */
+@media (max-width:800px){
+  .about-logo{
+    width:125%;
+    max-width:none;
+    align-self:center;
+    margin:0 auto 38px;
+    transform:translateX(-10%);
+  }
+}
