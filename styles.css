@@ -112,3 +112,10 @@
   }
 }
 
+/* v17 – mobil: Meraki Design-logo en anelse større */
+@media (max-width:800px){
+  .hero-brand{
+    width:185px;
+  }
+}
+
