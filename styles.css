@@ -81,3 +81,11 @@
     transform:translateX(70px);
   }
 }
+
+
+/* v13 – mobil: lavere hero-billede på forsiden */
+@media (max-width:800px){
+  .hero-visual{height:355px;}
+  .hero-top{height:175px;}
+  .hero-photo{height:180px;}
+}
