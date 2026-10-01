@@ -105,3 +105,10 @@
   }
 }
 
+/* v16 – mobil: samme højde som v15, kun fotoet flyttes ned */
+@media (max-width:800px){
+  .hero-visual{
+    background-position:center calc(58% + 42px);
+  }
+}
+
