@@ -82,13 +82,26 @@
   }
 }
 
-/* v14 – mobil: centrér lyskuglerne bedre i det lavere hero-felt */
+/* v15 – mobil: kortere hero med reel beskæring af fotoet
+   Fotoet beholder samme skala som før, mens selve billedfeltet bliver lavere.
+   Dermed beskæres top/bund i stedet for at hele fotoet blot skaleres ned. */
 @media (max-width:800px){
   .hero-visual{
-    height:355px;
+    height:285px;
+    min-height:0;
+    background-size:auto 355px;
     background-position:center 58%;
+    background-repeat:no-repeat;
   }
-  .hero-top{height:175px;}
-  .hero-photo{height:180px;}
+
+  .hero-top{
+    height:175px;
+    min-height:0;
+  }
+
+  .hero-photo{
+    height:110px;
+    min-height:0;
+  }
 }
 
