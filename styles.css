@@ -235,3 +235,17 @@
   }
 }
 
+/* v20 – mobil: centreret signatur og større logo i kontaktfeltet */
+@media (max-width:800px){
+  .signature{
+    width:175px;
+    max-width:55vw;
+    margin:18px auto 0;
+  }
+
+  .about-logo{
+    width:min(560px,100%);
+    max-width:100%;
+    margin:0 auto 38px;
+  }
+}
